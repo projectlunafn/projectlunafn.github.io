@@ -83,3 +83,6 @@ p, span {
   letter-spacing: .08em;
   white-space: normal;
 }
+a {
+  color: #fff;
+}
