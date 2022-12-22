@@ -55,7 +55,6 @@ p, span {
 }
 #center {
   justify-content: center;
-  white-space: nowrap;
   text-align: center;
   display: flex;
 }
@@ -82,19 +81,4 @@ p, span {
   text-transform: uppercase;
   letter-spacing: .08em;
   white-space: normal;
-}
-#container {
-  width: auto;
-  height: auto;
-  margin: auto;
-}
-#left {
-  width: 50%;
-  height: auto;
-  float: left;
-}
-#right {
-  width: 50%;
-  height: auto;
-  float: left;
 }
