@@ -76,13 +76,10 @@ p, span {
   border: 1px solid transparent;
   border-radius: 2px;
   padding: 8px 15px;
-  background-color: var(--color-btn-primary);
-  color: var(--color-btn-primary-text);
-  font-family: Courier Bold;
-  font-style: var(--font-style-header);
-  font-weight: var(--font-weight-header);
+  color: #fff;
+  font-family: Courier Bold, Courier, monospace;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .08em;
   white-space: normal;
-  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
 }
