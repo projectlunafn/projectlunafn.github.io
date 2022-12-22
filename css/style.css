@@ -1,0 +1,54 @@
+@import url("text.css");
+
+html, body {
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: table;
+}
+#background {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+#content {
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, .5);
+  transform: translateX(-50%) translateY(-50%);
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  font-weight: 900;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+}
+#footer {
+  font-family: Courier Bold, Courier, monospace;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, .5);
+  justify-content: center;
+  vertical-align: bottom;
+  align-items: flex-end;
+  position: absolute;
+  font-weight: 900;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+p {
+  font-family: Courier Bold, Courier, monospace;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, .5);
+  font-weight: 900;
+  color: #fff;
+}
