@@ -46,9 +46,15 @@ body {
   height: 100%;
   width: 100%;
 }
-p {
+p, span {
   font-family: Courier Bold, Courier, monospace;
   text-shadow: 1.5px 1.5px rgba(0, 0, 0, .5);
   font-weight: 900;
+  font-size: 12px;
   color: #fff;
+}
+#center {
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
