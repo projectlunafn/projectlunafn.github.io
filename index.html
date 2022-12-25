@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="page-content">
+<html>
    <head>
       <meta charset="utf-8">
       <meta name="author" content="devoooo">
@@ -26,38 +26,12 @@
    </body>
    <div id="content">
       <h2>
-         <a id="download" href="download.html">[DOWNLOAD]</a>
+         <a href="download.html">[DOWNLOAD]</a>
       </h2>
    </div>
    <div id="footer">
       <p>Project Luna ®</p>
    </div>
-<style>
-  /* Add a transition effect for the page content */
-  #page-content {
-    transition: transform 0.5s ease-out;
-  }
-</style>
-
-  <script>
-    // Get a reference to the page content element
-    var pageContent = document.getElementById('page-content');
-
-    // Get a reference to the button
-    var swipeLeftButton = document.getElementById('download');
-
-    // Add a click event listener to the button
-    swipeLeftButton.addEventListener('click', function() {
-      // Set the page content's transform property to translateX(-100%)
-      pageContent.style.transform = 'translateX(-100%)';
-
-      // Wait for the transition to finish before changing the location
-      setTimeout(function() {
-        window.location.href = './download.html';
-      }, 500);
-    });
-  </script>
-
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7G08YBFN2"></script>
       <script>
