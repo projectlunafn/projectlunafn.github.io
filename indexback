@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+   <title>UV Downloader</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <!-- Header content goes here -->
+        <h1>UV Downloader</h1>
+    </header>
+    <form id="get_video" class="wrapper" autocomplete="off" name="formurl" method="post">
+
+        <div class="text">
+            <h2>TikTok Video Downloader</h1>
+            <p>Without Watermark. Fast. All devices</p>
+        </div>
+        <div class="input-container">
+            <input name="url" type="text" placeholder="Paste video URL from TikTok" id="url">
+            <button class="paste-button" id="paste" onclick="pasteText()">Paste</button>
+        </div>
+        <div class="button-container">
+            <button class="button-85" id="send" type="submit" role="button"><span class="mb-hidden">Download</span></button>
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.storageapi.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</html>
